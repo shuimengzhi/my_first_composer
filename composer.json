@@ -1,16 +1,19 @@
 {
-    "name": "shuimengzhi/my_first_composer",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Shuimengzhi\\MyFirstComposer\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "shuimengzhi",
-            "email": "shuimengzhi@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "shuimengzhi/my_first_composer",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Shuimengzhi\\MyFirstComposer\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shuimengzhi",
+      "email": "shuimengzhi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3"
+  }
 }
